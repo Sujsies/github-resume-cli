@@ -1,0 +1,28 @@
+{
+  "name": "github-resume-cli",
+  "version": "1.0.0",
+  "description": "Terminal-based resume generator powered by GitHub API",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "github-resume": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@octokit/graphql": "^8.2.2",
+    "chalk": "^5.6.2",
+    "commander": "^12.1.0",
+    "inquirer": "^9.3.8",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.10",
+    "@types/node": "^20.19.43",
+    "tsx": "^4.23.1",
+    "typescript": "^5.9.3"
+  }
+}

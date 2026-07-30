@@ -23,6 +23,18 @@ A lightweight, developer-friendly CLI tool built with TypeScript and Node.js tha
 
 ---
 
+## ⚡ Quick NPM Commands Reference
+
+| Action | Command |
+| :--- | :--- |
+| **Install Dependencies** | `npm install @octokit/graphql chalk inquirer ora commander` |
+| **Install Dev Dependencies** | `npm install -D typescript tsx @types/node @types/inquirer` |
+| **Run in Dev Mode** | `npm run dev` |
+| **Build Project** | `npm run build` |
+| **Run Built Code** | `npm start` |
+
+---
+
 ## 🚀 Setup & Installation Guide
 
 ### Prerequisites
